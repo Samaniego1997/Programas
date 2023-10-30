@@ -1,21 +1,17 @@
-//titulo del programa:redta y comparacion
-//nombre del programa;saldo.cpp
-//autor:Samaniego Denis
-//fecha creacion:2023-09-11
-//description:resta de doa numeros y presenta el saldo
+//programa:comtraceña
+//autor:Samaniego Denis 
+//fecha:02-10-2023
 #include<iostream>
 using namespace std;
 int main()
 {
-	float a,b,c;
-	cin>>a>>b;
-	c=a-b;
-	if(c<0)
+	int c1,c2=5;
+	cout<<"ingrese la clave:";cin>>c1;
+	if(c1==c2)
 	{
-		cout<<"Negativo";
+		cout<<"acceso correcto";
 	}else{
-		cout<<"Positivo";
+		cout<<"acceso incorrecto";
 	}
-	return 0;
+	return (0);
 }
-
